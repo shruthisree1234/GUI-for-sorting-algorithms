@@ -1,15 +1,25 @@
-Shruthi Sree Thirunavukkarasu
-1001933428
+# Interactive Sorting Algorithms Visualizer
 
------------- GUI FOR SORTING ALGORITHMS & COMPARISON ----------------
+## Overview
 
-Language : Python 3.8.5 64-bit
-Platform : Microft Visual Studio Code
-Modules : matplotlib, tkinter
+This Python project is a graphical user interface (GUI) tool for visualizing and comparing classic sorting algorithms in real time. It helps users understand, analyze, and benchmark the inner workings of sorting methods—perfect for learners, educators, or anyone interested in algorithms.
 
----------------------------------------------------------------------
+## Features
 
-Steps to be followed to run the GUI :
+- Real-time step-by-step visualization for multiple sorting algorithms
+- Easy-to-use GUI built with Tkinter
+- Timing and performance plots comparing algorithms (with Matplotlib)
+- User input for custom arrays and adjustable problem sizes
+- Supports Bubble Sort, Selection Sort, Insertion Sort, and more
+
+## Project Structure
+
+- `app.py` — Main application file to launch the GUI
+- `sort_module.py` — Module for sorting algorithm implementations
+- `compare_module.py` — Module for timing and plotting performance benchmarks
+
+
+## Steps to be followed to run the GUI :
 
 1. Install Python
 2. Instal Microsoft Visual Studio Code
@@ -20,12 +30,13 @@ Steps to be followed to run the GUI :
 6. Open the Project Source directory in VSC
 7. Run app.py to run the GUI
 
-In GUI
+## In GUI
 
 * Enter input array as comma separated values
 * To sort the input array choose the sorting algorithm to be used
 * To generate comparison graph enter the minimum and the maximum size of the array size and click compare
 
 ---------------------------------------------------------------------
+
 
 
